@@ -1,0 +1,510 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  background-color: #fff;
+  color: #777;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+.carousel-inner {
+  height: 80vh;
+}
+/* NAVIGATION BAR STYLES  */
+.top-bar {
+  background-color: #f9bf8fdc;
+  padding: 13px 5px;
+  color: #444;
+}
+.tb-email a {
+  color: darkolivegreen;
+  padding-left: 2rem;
+  padding-right: 3%;
+  font-size: 14px;
+  font-weight: 500;
+}
+.tb-phone {
+  color: darkolivegreen;
+  font-size: 14px;
+  font-weight: 500;
+}
+nav.navbar {
+  margin: 1rem;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+a.navbar-brand {
+  margin-top: -1rem;
+}
+a.nav-link {
+  margin-right: 18px;
+}
+.navbar-brand,
+.navbar-custom .navbar-nav .nav-link {
+  margin-right: 20px;
+  font-weight: 500;
+  padding: 10px 0 20px 0;
+  color: #4c4c4c;
+  font-size: 15px;
+}
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+  color: #3db166;
+  border-bottom: 4px solid #3db166;
+}
+.dropdown-menu.show {
+  background-color: #fafafa;
+  border: none;
+  border-radius: 0;
+  font-size: 14px;
+  margin: 0;
+}
+.dropdown-item.active,
+.dropdown-item:active,
+.dropdown-item:hover,
+.dropdown-item:focus {
+  color: #3db166;
+  background-color: #fafafa;
+}
+/* TOGGLE MENU STYLES */
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(1, 139, 1, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.navbar-toggler {
+  border-color: #018b01;
+}
+
+/* ABOUT SECTION HOME PAGR STYLES */
+.home-about {
+  background-image: -webkit-linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url(https://images.pexels.com/photos/1153976/pexels-photo-1153976.jpeg?cs=srgb&dl=activity-asian-people-boys-children-1153976.jpg&fm=jpg);
+  background-image: linear-gradient(
+      rgba(0, 128, 0, 0.753),
+      rgba(0, 128, 0, 0.712)
+    ),
+    url(https://images.pexels.com/photos/1153976/pexels-photo-1153976.jpeg?cs=srgb&dl=activity-asian-people-boys-children-1153976.jpg&fm=jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.abt-inner {
+  padding: 10% 2%;
+  /* line-height: 28px;
+  letter-spacing: 0.2px;
+  word-spacing: 2px; */
+}
+.pri-content {
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #d8e3fb;
+}
+.sec-content {
+  font-weight: 500;
+  text-transform: none;
+  color: #ffffff;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+a.mrk-btn {
+  color: #ffffff;
+  font-weight: 600;
+}
+a.mrk-btn:hover {
+  color: khaki;
+}
+p.about-title {
+  color: khaki;
+  font-size: 23px;
+  font-size: 31px;
+  font-weight: 600;
+  letter-spacing: 0px;
+  text-transform: none;
+}
+i.fa.fa-long-arrow-right {
+  color: #fff;
+}
+/* FOOTER STYLES */
+.footer-container {
+  background-color: #181818;
+  color: #ababab;
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+.telephone {
+  color: #fff;
+  padding: 8px 0;
+}
+.email {
+  padding-bottom: 15px;
+}
+.divider {
+  border-bottom: 3px solid green;
+}
+h3.footer-title {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  padding-bottom: 12px;
+  border-bottom: 3px solid green;
+  margin-bottom: 20px;
+}
+ul.menu-container {
+  list-style: none;
+}
+li.menu-item {
+  padding-bottom: 7px;
+}
+li.menu-item a {
+  color: #8d8d8d;
+}
+li.menu-item a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+.copyright {
+  background-color: #202020;
+  padding: 10px;
+}
+.social-media-icons i.fa {
+  color: #777;
+}
+/* NEWS & UPDATES */
+section.home-blog {
+  margin: 50px 0;
+}
+.blog-item-holder {
+  margin-bottom: 2rem;
+}
+.blog-title-wrapper {
+  margin-bottom: 20px;
+}
+a.blog-read-more {
+  color: green;
+}
+img.thumbnail-img {
+  width: 260px;
+  margin-bottom: 15px;
+}
+.info-categ {
+  text-transform: uppercase;
+  margin: 6px 0;
+}
+h3.hm-blog-title {
+  /* font-size: 19px; */
+  font-style: normal;
+  text-transform: none;
+  letter-spacing: 0px;
+  font-weight: 600;
+}
+h3.hm-blog-title a {
+  color: #444;
+}
+img.sub-thumbnail-img {
+  width: 160px;
+  max-width: 100%;
+  height: auto;
+}
+.sub-date {
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.sub-info-categ {
+  text-transform: uppercase;
+  margin: 6px 0;
+  font-size: 13px;
+  font-weight: 500;
+}
+h3.sub-hm-blog-title {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0px;
+}
+h3.sub-hm-blog-title a {
+  color: #161616;
+}
+/* QUICK LINKS */
+.ql-section {
+  background-image: -webkit-linear-gradient(#f9bf8fde, #f9bf8fdc)
+    url(https://images.pexels.com/photos/1926988/pexels-photo-1926988.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  background-image: linear-gradient(#f9bf8fde, #f9bf8fdc),
+    url(https://images.pexels.com/photos/1926988/pexels-photo-1926988.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  background-size: cover;
+  /* height: 75vh; */
+}
+.ql-wrapper {
+  padding: 40px;
+}
+h3.ql-title {
+  color: #fff;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+ul.ql-menu-items {
+  list-style: none;
+}
+li.ql-item {
+  padding: 5px 0;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+li.ql-item a {
+  border-bottom: 1px solid rosybrown;
+  padding: 5px 0;
+  color: green;
+}
+li.ql-item a:hover {
+  text-decoration: none;
+  color: rgba(0, 128, 0, 0.842);
+}
+.sub-blog-grid {
+  margin-bottom: 20px;
+}
+
+/* 
+ * ABOUT PAGE STYLES  
+*/
+.banner-title {
+  background-image: -webkit-linear-gradient(
+      rgba(0, 0, 0, 0.11),
+      rgba(0, 0, 0, 0.822)
+    ),
+    url(https://images.pexels.com/photos/298660/pexels-photo-298660.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-image: linear-gradient(
+      to top rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.973)
+    ),
+    url(https://images.pexels.com/photos/298660/pexels-photo-298660.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  height: 75vh;
+  background-size: cover;
+}
+.pg-title-ct {
+  padding-top: 20rem;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+h1.page-title {
+  color: #fff;
+  font-weight: 600;
+  font-size: 300%;
+}
+.pre-pg-title {
+  color: #3db166;
+  font-size: 20px;
+}
+ol.breadcrumb {
+  background-color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 13px;
+  padding-left: 0;
+}
+li.breadcrumb-item.active {
+  color: #3db166;
+}
+.sc-history {
+  margin-bottom: 2rem;
+}
+h2.history-title {
+  font-size: 29px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  text-transform: none;
+  color: #161616;
+  border-bottom: 3px solid green;
+  padding-bottom: 12px;
+}
+p.hist-content {
+  line-height: 1.7;
+}
+/* MISSION & VISION STATEMENTS */
+.statements {
+  background-image: -webkit-linear-gradient(
+      rgba(0, 128, 0, 0.753),
+      rgba(0, 128, 0, 0.712)
+    ),
+    url(https://images.pexels.com/photos/1153976/pexels-photo-1153976.jpeg?cs=srgb&dl=activity-asian-people-boys-children-1153976.jpg&fm=jpg);
+  background-image: linear-gradient(
+      rgba(0, 128, 0, 0.753),
+      rgba(0, 128, 0, 0.712)
+    ),
+    url(https://images.pexels.com/photos/1153976/pexels-photo-1153976.jpeg?cs=srgb&dl=activity-asian-people-boys-children-1153976.jpg&fm=jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 5%;
+  color: #fff;
+  letter-spacing: 0.5px;
+  line-height: 1.5;
+}
+.mission-title,
+.vision-title {
+  font-weight: 600;
+}
+/* CONTACT PAGE STYLES */
+.contact-section {
+  background-color: #f5f5f5;
+}
+.c-pg-ct {
+  text-align: center;
+}
+.banner-title h2 {
+  padding-top: 12rem;
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+  font-size: 300%;
+}
+.c-pg-ct {
+  padding-top: 13rem;
+}
+.contact-content {
+  margin-top: 2%;
+  padding-bottom: 5%;
+}
+ol.c-breadcrumb {
+  background-color: #f5f5f5;
+}
+.contact-form {
+  margin-bottom: 2rem;
+}
+.location-sc {
+  margin-bottom: 2rem;
+}
+h3.form-title,
+.location-title {
+  text-transform: uppercase;
+  padding-bottom: 4%;
+  font-weight: 600;
+  color: #161616;
+  font-size: 32px;
+}
+.location-title {
+  font-size: 28px;
+}
+i.fa {
+  color: #121212;
+  padding-right: 5px;
+}
+/* FACULTY PAGE STYLES */
+.faculty-content {
+  padding: 2%;
+  color: #4c4c4c;
+  font-size: 15px;
+}
+.f-pg-title {
+  padding-top: 13rem;
+  text-align: center;
+}
+.personnel {
+  margin-bottom: 2rem;
+}
+.personnel-image img {
+  width: 300px;
+  height: auto;
+  max-width: 100%;
+}
+.p-name {
+  padding-bottom: 1.2rem;
+}
+.p-name h3 {
+  font-weight: 700;
+  color: #222;
+  font-size: 23px;
+}
+.p-title {
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 0px;
+  color: #7c7c7c;
+}
+.p-social-media i.fa {
+  color: #50bd77;
+  padding-right: 10px;
+  padding-top: 1.4rem;
+  padding-bottom: 0.3rem;
+}
+.p-email,
+.p-phone,
+.p-address {
+  padding-bottom: 1rem;
+}
+/* CURRICULUM PAGE STYLES */
+.curriculum-content {
+  margin-bottom: 2rem;
+}
+.cur-pg-ct {
+  text-align: center;
+  padding-top: 15rem;
+}
+h2.cur-title {
+  font-size: 27px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  text-transform: none;
+  color: #161616;
+  padding-bottom: 1rem;
+}
+.cur-p {
+  line-height: 1.7;
+}
+/* ACADEMICS PAGE STYLES */
+h2.programs-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #161616;
+  text-transform: uppercase;
+  padding-bottom: 1rem;
+}
+li.list-group-item {
+  padding-left: 0;
+}
+.unit-numbr {
+  color: #50bd77;
+  padding-right: 1rem;
+}
+.subject {
+  color: #6b6b6b;
+  font-weight: 500;
+}
+/* GALLERY PAGE STYLES */
+.gallery-images {
+  column-count: 3;
+}
+.gallery-images img {
+  width: 100%;
+  margin: 1rem;
+}
+/* MEDIA QUERIES */
+@media (max-width: 576px) {
+  .carousel-inner {
+    height: auto;
+  }
+  section.home-blog {
+    margin-bottom: 0;
+  }
+  nav.navbar {
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 1090px) {
+  .navbar-custom .nav-item.active .nav-link,
+  .navbar-custom .nav-item:hover .nav-link {
+    border-bottom: none;
+  }
+  nav.navbar {
+    margin: 10px 0;
+  }
+  a.navbar-brand {
+    margin-top: 0;
+}
+}
