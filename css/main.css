@@ -59,7 +59,7 @@ a.nav-link {
   background-color: #fafafa;
   border: none;
   border-radius: 0;
-  font-size: 14px;
+  font-size: 15px;
   margin: 0;
 }
 .dropdown-item.active,
@@ -506,5 +506,8 @@ li.list-group-item {
   }
   a.navbar-brand {
     margin-top: 0;
+}
+.dropdown-menu.show {
+  background-color: #fff;
 }
 }
